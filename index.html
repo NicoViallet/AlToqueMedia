@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altoque Media Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+    <!-- Place favicon.ico in the root directory -->
+    <script
+      src="https://kit.fontawesome.com/2d7a4081c8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header role="banner">
+      <div class="container">
+        <div class="grid grid-header">
+          <div class="item logo">
+            <a class="site-logo" href="#" rel="home" title="to homepage">
+              AL TOQUE MEDIA
+            </a>
+          </div>
+          <div class="item menu">
+            <nav>
+              <ul>
+                <li><a class="active item" href="#me">About Me</a></li>
+                <li><a class="item" href="#skills">Skills</a></li>
+                <li><a class="item" href="#projects">Projects</a></li>
+                <li><a class="item" href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="hero">
+      <div>
+        <h1 class="title">AL TOQUE MEDIA</h1>
+        <h3 class="lead">Where <span class="txt-type" data-wait="3000" data-words='["dreams come true", "code gets deployed"]'></span></h3>
+      </div>
+    </div>
+    <main role="main" tabindex="-1">
+      <article>
+        <section id="me">
+          <div class="container">
+            <h2>About me</h2>
+            <div class="grid grid-two-left">
+              <div class="media-grid">
+                <img
+                  src="https://res.cloudinary.com/altoque/image/upload/c_scale,w_600/v1612401857/run_nico_run_jwdcav.jpg"
+                  alt="my happy face"
+                />
+              </div>
+              <div class="content-grid">
+                <h3>Nicolas Viallet</h3>
+                <span class="lead">FrontEnd Developer</span>
+                <p>
+                  Experienced Project Manager with a demonstrated history of working in the online industry, priding himself in learning fast and getting things done. Skilled in CRO, Search Engine Optimization (SEO), data analysis and WordPress. A strong team and project management professional with good people skills and a Master's degree focused in Business, Management, Marketing, and Related Support Services from Aix-Marseille University. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="skills">
+          <div class="container">
+            <h2>My Skills</h2>
+            <div class="flexbox">
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-js"></i>
+              <i class="fab fa-git"></i>
+              <i class="fab fa-github"></i>
+              <i class="fab fa-wordpress"></i>
+              <i class="fab fa-bootstrap"></i>
+            </div>
+          </div>
+        </section>
+        <section id="projects">
+          <div class="container">
+            <h2>My Projects</h2>
+            <h3>Those are real projects I made.</h3>
+            <div class="grid grid-three">
+              <div class="project-item" onclick="currentproject(1)">
+                <img
+                  src="https://res.cloudinary.com/altoque/image/upload/c_scale,w_400/v1613599442/rudem-screenshot_gqqewr.png"
+                  alt="rudem fitness"
+                />
+                <div class="content">
+                  Rudem Fitness
+                </div>
+              </div>
+              <div class="project-item"  onclick="currentproject(2)">
+                <img
+                  src="https://res.cloudinary.com/altoque/image/upload/c_scale,w_400/v1613599442/sportiva-screenshot_ocawvk.png"
+                  alt="sportiva365"
+                />
+                <div class="content">
+                  Sportiva365
+                </div>
+              </div>
+              <div class="project-item"  onclick="currentproject(3)">
+                <img
+                  src="https://res.cloudinary.com/altoque/image/upload/c_scale,w_400/v1613599442/radiorunning-screenshot_jrghnt.png"
+                  alt="radiorunning"
+                />
+                <div class="content">
+                  Radio Running
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="grid grid-two-right">
+              <div class="media-grid">
+                <img
+                  src="https://res.cloudinary.com/altoque/image/upload/c_scale,w_600/v1613599442/rudem-screenshot_gqqewr.png"
+                  alt="rudem fitness"
+                />
+              </div>
+              <div class="content-grid">
+                <h3>Rudem Fitness</h3>
+                <span class="lead">Gym equipment brand</span>
+                <p>
+                  Produces fitness,and weightlifting equipment for Gyms, Crossfit boxes or home gyms. The brand sales through different channels and is present in large retail stores. The challenge was to build a robust website, well integrated with their accounting and inventory management system.
+                </p>
+                <a href="https://www.rudemfitness.com/" rel="external"> Visit site</a>
+                <ul class="project-tools">
+                  <li><strong>System:</strong> Wordpress + Woocommerce</li>
+                  <li><strong>Custom Design:</strong> Bootstrap + CSS Grid</li>
+                  <li><strong>Integration:</strong> API - Accounting and inventory platform</li>
+                  <li><strong>Conversion optimization:</strong> Tracking, Remarketing, Mailing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="grid grid-two-right">
+              <div class="media-grid">
+                <img
+                  src="https://res.cloudinary.com/altoque/image/upload/c_scale,w_600/v1613599442/sportiva-screenshot_ocawvk.png"
+                  alt="sportiva365"
+                />
+              </div>
+              <div class="content-grid">
+                <h3>Sportiva365</h3>
+                <span class="lead">Event Ticketing Platform</span>
+                <p>
+                  The idea was to create a ticketing platform dedicated to sport events where organizers could sell their tickets. The platform includes a dashboard for organizers where they can manage attendees, create discounts and coupons. As for the attendees, it offers all the information about races as well as a calendar with filters to find their perfect match.
+                </p>
+                <a href="https://www.sportiva365.com/" rel="external"> Visit site</a>
+                <ul class="project-tools">
+                  <li><strong>System:</strong> Wordpress + Woocommerce + Tribe events</li>
+                  <li><strong>Custom Design:</strong> Bootstrap</li>
+                  <li><strong>Integration:</strong> Vendors dashboard and ticketing management</li>
+                  <li><strong>Conversion optimization:</strong> Tracking, Remarketing, Mailing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="grid grid-two-right">
+              <div class="media-grid">
+                <img
+                  src="https://res.cloudinary.com/altoque/image/upload/c_scale,w_600/v1613599442/radiorunning-screenshot_jrghnt.png"
+                  alt="radiorunning"
+                />
+              </div>
+              <div class="content-grid">
+                <h3>Radio Running Perú</h3>
+                <span class="lead">Online Sportive Radio / Podcast</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Pariatur sunt voluptatibus saepe quas rerum, explicabo
+                  voluptatem ullam temporibus maiores facere nemo quae at,
+                  suscipit delectus assumenda veniam, corrupti odit eveniet
+                  enim hic? Cupiditate, veniam rerum et accusamus eum dolores
+                  quae.
+                </p>
+                <a href="https://www.radiorunning.pe/" rel="external"> Visit site</a>
+                <ul class="project-tools">
+                  <li><strong>System:</strong> Wordpress</li>
+                  <li><strong>Custom Design:</strong> Bootstrap</li>
+                  <li><strong>Integration:</strong> Videos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer role="contentinfo">
+      <p class="text-center">Made with <i class="fas fa-mug-hot"></i> and <i class="fas fa-heart"></i> in Perú</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
