@@ -286,6 +286,7 @@ section {
 .grid-two-right .media-grid {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  text-align: center;
 }
 .grid-two-right .media-grid img {
   align-self: stretch;
@@ -364,6 +365,10 @@ footer {
     border-right: 60px solid transparent;
     border-top: 60px solid var(--secondary);
   }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
   .grid-two-right {
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1;
@@ -376,12 +381,6 @@ footer {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     padding: 50px;
-    background-color: var(--primary);
-    color: var(--white);
     align-self: stretch;
   }
-}
-@media (min-width: 992px) {
-}
-@media (min-width: 1200px) {
 }
