@@ -7,7 +7,7 @@
 
 ## General info
 
-Part of the FronEnd Engineer Carrer Path on codecademy. Simple project to practice skills learned _(including writting a read.me page)_
+Part of the FrontEnd Engineer Career Path on codecademy. Simple project to practice skills learned _(including writting a read.me page)_
 
 ## Project Objectives
 
